@@ -94,8 +94,8 @@ body{background-color: rgb(240, 240, 240);}
 @media(max-width: 490px){
     .flex{flex-direction: column;}
     .box-2, .box-3{width: auto;
-        border-radius: none;}
-    .container{border-radius: none;}
+        border-radius: 0;}
+    .container{border-radius: 0;}
 }
 
 
