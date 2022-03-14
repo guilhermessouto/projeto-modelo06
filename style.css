@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+*{margin: 0;
+    padding: 0;}
+
+:root{
+    --azul-fraco: #11a6d3;
+    --azul-forte: #2B76FF;
+    --verde: #75cf06;
+}
+
+body{background-color: rgb(240, 240, 240);}
+
+
+
+
+
+.container{max-width: 800px;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.726);
+    box-shadow: 0 2px 5px  rgba(0, 0, 0, 0.589);}
+
+
+
+
+
+.box-1{padding: 30px;
+    margin-bottom: 10px;}
+
+.box-1 h1{color: var(--azul-fraco);
+    margin-bottom: 20px;}
+
+.box-1 h2{color: var(--verde);
+    margin-bottom: 15px;}
+
+.box-1 p{font-size: 1.2em;
+    line-height: 30px;}
+
+
+
+
+
+.flex{display: flex;}
+
+.box-2{width: 50%;
+    padding: 40px;
+    background-color: var(--azul-forte);
+    border-bottom-left-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;}
+
+.box-2 h1{margin-bottom: 20px;}
+
+.box-2-parag{display: flex; 
+    align-items: center;
+    margin-bottom: 5px;}
+
+
+.box-2-parag #preço{margin-right: 10px;
+    font-size: 2.3em;
+    font-weight: bold;}
+
+.box-2-parag p{font-size: 1.4em;}
+
+.box-2 #a{font-size: 1.2em;
+    margin-bottom: 20px;
+    padding-bottom: 20px;}
+
+.box-2 a{text-decoration: none;
+    font-size: 1.4em;
+    color: white;
+    text-align: center;
+    background-color: var(--verde);
+    padding: 15px 10px;
+    font-weight: bold;}
+
+
+
+
+
+.box-3{width: 50%;
+    padding: 40px;
+    background-color: var(--azul-fraco);
+    border-bottom-right-radius: 10px;
+    color: white;}
+
+.box-3 h1{margin-bottom: 20px;}
+
+.box-3 p{line-height: 30px;
+    font-size: 1.1em;}
+
+@media(max-width: 490px){
+    .flex{flex-direction: column;}
+    .box-2, .box-3{width: auto;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
